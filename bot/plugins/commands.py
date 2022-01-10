@@ -54,13 +54,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name}\n\n ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-♻️ 𝙅𝙊𝙄𝙉 :- @EF_Linkz
-♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates
-♻️ 𝙅𝙊𝙄𝙉 :- @efcinema
-♻️ 𝙅𝙊𝙄𝙉 :- @ef_new_realese
-♻️ 𝙅𝙊𝙄𝙉 :- @efmovieshub
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝",
+                caption = caption,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -86,13 +80,7 @@ async def start(bot, update):
             await update.bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = f"{file_name}\n\n ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-♻️ 𝙅𝙊𝙄𝙉 :- @EF_Linkz
-♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates
-♻️ 𝙅𝙊𝙄𝙉 :- @efcinema
-♻️ 𝙅𝙊𝙄𝙉 :- @ef_new_realese
-♻️ 𝙅𝙊𝙄𝙉 :- @efmovieshub
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝",
+                caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
