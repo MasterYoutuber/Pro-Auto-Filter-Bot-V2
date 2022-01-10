@@ -101,11 +101,8 @@ async def start(bot, update):
                 audio = file_id,
                 caption = f"{file_name}\n\n ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ♻️ 𝙅𝙊𝙄𝙉 :- @EF_Linkz
-♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates
-♻️ 𝙅𝙊𝙄𝙉 :- @efcinema
-♻️ 𝙅𝙊𝙄𝙉 :- @ef_new_realese
-♻️ 𝙅𝙊𝙄𝙉 :- @efmovieshub
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝",
+♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates                audio = file_id,
+                caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
