@@ -99,9 +99,6 @@ async def start(bot, update):
             await update.bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"{file_name}\n\n ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-♻️ 𝙅𝙊𝙄𝙉 :- @EF_Linkz
-♻️ 𝙅𝙊𝙄𝙉 :- @dvdnewupdates                audio = file_id,
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
